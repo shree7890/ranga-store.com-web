@@ -1,0 +1,59 @@
+body {
+  background-image: url("./../images/bg.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+.price-area {
+  margin-left: 30px;
+}
+
+.price-area {
+  width: 30%;
+}
+
+.card-img-top {
+  width: 150px;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  color: #ffc107;
+}
+
+.priceCart {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100000;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+}
+
+tr td:first-child {
+  display: block;
+  width: 70%;
+}
+
+tr td:last-child {
+  display: block;
+  width: 30%;
+}
+.img-pro {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.card {
+  height: 400px;
+}
+#spinner {
+  display: none;
+}
